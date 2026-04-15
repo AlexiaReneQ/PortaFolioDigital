@@ -338,3 +338,31 @@ table th {
     justify-content: flex-start;
   }
 }
+
+.video-box {
+  margin-top: 12px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.video-box iframe {
+  display: block;
+}
+
+.ref-list {
+  padding-left: 22px;
+}
+
+.ref-list li {
+  margin-bottom: 18px;
+}
+
+.ref-list a {
+  color: var(--secondary);
+  word-break: break-word;
+}
+
+.ref-list a:hover {
+  text-decoration: underline;
+}
