@@ -4,12 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Derecho y tecnología en Cusco</title>
+  <meta name="description" content="Portafolio digital académico sobre derecho y tecnología aplicados a los servicios públicos y de justicia en Cusco.">
+  <meta name="theme-color" content="#16324F">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Saltar al contenido</a>
+
   <header class="site-header">
     <div class="container nav-container">
       <a href="index.html" class="logo">Derecho y Tecnología</a>
+
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        ☰
+      </button>
+
       <nav class="nav">
         <a href="index.html" class="active">Inicio</a>
         <a href="proyecto.html">Definición del Proyecto</a>
@@ -22,82 +31,116 @@
     </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-text">
+  <main id="main-content">
+    <section class="hero hero-home">
+      <div class="container hero-home-grid">
+        <div class="hero-home-copy">
           <span class="badge">Portafolio digital académico</span>
           <h1>Derecho y tecnología aplicados a los servicios públicos y de justicia en Cusco</h1>
           <p class="subtitle">
             Transformación digital, acceso ciudadano e innovación jurídica en el contexto local.
           </p>
+
           <p>
             Soy <strong>Alexia Rene Quispe Mamani</strong>, estudiante de la carrera de
-            <strong>Derecho</strong>. En este portafolio digital presento una reflexión académica
-            sobre la relación entre el Derecho y la tecnología en el contexto de Cusco,
-            enfocándome en cómo la transformación digital viene modificando el acceso a los
-            servicios públicos, la gestión administrativa y la interacción con el sistema de justicia.
+            <strong>Derecho</strong>. En este portafolio digital analizo cómo la transformación
+            digital viene modificando el acceso a los servicios públicos, la gestión administrativa
+            y la interacción con el sistema de justicia en el contexto de Cusco.
           </p>
+
           <div class="hero-actions">
             <a href="proyecto.html" class="btn btn-primary">Explorar el proyecto</a>
             <a href="referencias.html" class="btn btn-secondary">Ver fuentes</a>
           </div>
         </div>
 
-        <div class="hero-card">
-          <div class="hero-card-top">Enfoque central</div>
-          <h3>¿Qué analiza este sitio?</h3>
-          <p>
-            Analiza cómo la digitalización influye en la prestación de servicios públicos,
-            la justicia digital, la identidad electrónica y la seguridad jurídica en Cusco.
-          </p>
-          <ul>
-            <li>Servicios públicos digitales</li>
-            <li>Justicia digital</li>
-            <li>Identidad digital y seguridad jurídica</li>
-          </ul>
+        <div class="hero-home-visual">
+          <img
+            src="assets/img/hero-legal-tech.jpg"
+            alt="Profesional del ámbito jurídico trabajando en laptop con símbolo de justicia sobre el escritorio"
+            class="hero-main-image"
+          >
+          <div class="hero-floating-card">
+            <span class="tag-mini">Enfoque central</span>
+            <h3>¿Qué estudia este sitio?</h3>
+            <p>
+              Cómo la tecnología influye en los servicios públicos, la justicia digital y la identidad
+              electrónica desde una mirada jurídica aplicada a Cusco.
+            </p>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container note-box">
+        <h2>¿Por qué este tema importa en Cusco?</h2>
+        <p>
+          El caso cusqueño permite observar cómo la digitalización ya forma parte de la gestión
+          municipal, el trámite regional, la actividad judicial y la identificación digital del ciudadano.
+          Por ello, analizar la relación entre Derecho y tecnología en Cusco permite comprender un cambio
+          real en la forma en que las personas acceden a servicios del Estado y ejercen sus derechos.
+        </p>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
         <div class="section-heading">
-          <h2>Idea central del portafolio</h2>
+          <h2>Ejes del portafolio</h2>
           <p>
-            En la actualidad, distintas instituciones públicas ya utilizan herramientas
-            tecnológicas para recibir documentos, orientar trámites, facilitar consultas
-            y fortalecer la atención al ciudadano. En Cusco, este proceso puede observarse
-            en entidades públicas, judiciales y de identificación digital.
+            El sitio está organizado a partir de tres dimensiones que permiten explicar el vínculo
+            entre Derecho y tecnología desde una perspectiva clara, concreta y local.
           </p>
         </div>
 
-        <div class="cards">
-          <article class="card">
-            <div class="icon-circle">01</div>
-            <h3>Servicios públicos digitales</h3>
-            <p>
-              La digitalización permite presentar documentos, acceder a trámites y mejorar
-              la relación entre ciudadanía y administración pública.
-            </p>
+        <div class="cover-cards">
+          <article class="cover-card">
+            <img
+              src="assets/img/law-office.jpg"
+              alt="Fachada de oficina jurídica que representa institucionalidad y servicios legales"
+              class="cover-card-image"
+            >
+            <div class="cover-card-body">
+              <span class="tag-mini">Eje 1</span>
+              <h3>Servicios públicos digitales</h3>
+              <p>
+                Trámites, seguimiento documentario, mesa de partes y atención digital al ciudadano.
+              </p>
+            </div>
           </article>
 
-          <article class="card">
-            <div class="icon-circle">02</div>
-            <h3>Justicia digital</h3>
-            <p>
-              El sistema judicial incorpora herramientas tecnológicas para la recepción de
-              escritos, las notificaciones y el acceso a determinados servicios.
-            </p>
+          <article class="cover-card">
+            <img
+              src="assets/img/justice-statue.jpg"
+              alt="Estatua de la justicia como símbolo de legalidad, equilibrio y seguridad jurídica"
+              class="cover-card-image"
+            >
+            <div class="cover-card-body">
+              <span class="tag-mini">Eje 2</span>
+              <h3>Justicia digital</h3>
+              <p>
+                Notificaciones electrónicas, presentación digital de documentos y acceso a servicios judiciales.
+              </p>
+            </div>
           </article>
 
-          <article class="card">
-            <div class="icon-circle">03</div>
-            <h3>Identidad digital</h3>
-            <p>
-              La identificación electrónica y los mecanismos digitales fortalecen la validez,
-              autenticidad y confianza jurídica en los entornos digitales.
-            </p>
+          <article class="cover-card">
+            <img
+              src="assets/img/hero-legal-tech.jpg"
+              alt="Profesional usando laptop en un entorno jurídico y tecnológico"
+              class="cover-card-image"
+            >
+            <div class="cover-card-body">
+              <span class="tag-mini">Eje 3</span>
+              <h3>Identidad digital y seguridad jurídica</h3>
+              <p>
+                DNI electrónico, certificados digitales, autenticidad documental y confianza en entornos electrónicos.
+              </p>
+              <p class="cover-card-emphasis">
+                La tecnología no reemplaza al Derecho; lo obliga a adaptarse, modernizarse y responder mejor a las necesidades del ciudadano.
+              </p>
+            </div>
           </article>
         </div>
       </div>
@@ -105,35 +148,11 @@
 
     <section class="section section-highlight">
       <div class="container highlight-box">
-        <h2>Planteamiento principal</h2>
+        <h2>Propósito de la portada</h2>
         <p>
-          La tecnología no reemplaza al Derecho; lo obliga a adaptarse, modernizarse y
-          responder mejor a las necesidades del ciudadano.
+          Introducir el problema central del trabajo, ubicar el contexto cusqueño y mostrar desde el inicio
+          que la transformación digital tiene implicancias jurídicas reales en la vida institucional y ciudadana.
         </p>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container two-columns">
-        <div class="content-box">
-          <h2>Propósito del sitio</h2>
-          <p>
-            Este portafolio busca demostrar competencias en manejo de herramientas digitales,
-            organización académica, búsqueda de información, redacción y análisis jurídico,
-            a partir de un enfoque aplicado al contexto local de Cusco.
-          </p>
-        </div>
-
-        <div class="content-box">
-          <h2>Competencias que evidencio</h2>
-          <ul class="check-list">
-            <li>Manejo de herramientas digitales</li>
-            <li>Organización y estructuración de contenido</li>
-            <li>Búsqueda y selección crítica de información</li>
-            <li>Redacción académica con enfoque jurídico</li>
-            <li>Uso responsable de inteligencia artificial</li>
-          </ul>
-        </div>
       </div>
     </section>
   </main>
@@ -144,5 +163,8 @@
       <p>Derecho y tecnología aplicados a los servicios públicos y de justicia en Cusco</p>
     </div>
   </footer>
+
+  <button class="back-to-top" aria-label="Volver arriba">↑</button>
+  <script src="script.js"></script>
 </body>
 </html>

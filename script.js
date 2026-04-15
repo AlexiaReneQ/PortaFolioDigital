@@ -1,25 +1,40 @@
-const menuButton = document.querySelector('.menu-toggle');
-const navLinks = document.querySelector('.nav-links');
-if (menuButton && navLinks) {
-  menuButton.addEventListener('click', () => {
-    navLinks.classList.toggle('open');
-  });
-}
+document.addEventListener("DOMContentLoaded", () => {
+  const navToggle = document.querySelector(".nav-toggle");
+  const nav = document.querySelector(".nav");
+  const backToTop = document.querySelector(".back-to-top");
 
-const current = window.location.pathname.split('/').pop() || 'index.html';
-document.querySelectorAll('.nav-links a').forEach(link => {
-  const href = link.getAttribute('href');
-  if ((current === '' || current === 'index.html') && href === 'index.html') link.classList.add('active');
-  if (href === current) link.classList.add('active');
+  if (navToggle && nav) {
+    navToggle.addEventListener("click", () => {
+      const isOpen = nav.classList.toggle("nav-open");
+      navToggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      navToggle.textContent = isOpen ? "✕" : "☰";
+    });
+
+    nav.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        nav.classList.remove("nav-open");
+        navToggle.setAttribute("aria-expanded", "false");
+        navToggle.textContent = "☰";
+      });
+    });
+  }
+
+  window.addEventListener("scroll", () => {
+    if (!backToTop) return;
+
+    if (window.scrollY > 400) {
+      backToTop.classList.add("show");
+    } else {
+      backToTop.classList.remove("show");
+    }
+  });
+
+  if (backToTop) {
+    backToTop.addEventListener("click", () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  }
 });
-
-const yearSpan = document.querySelector('[data-year]');
-if (yearSpan) yearSpan.textContent = new Date().getFullYear();
-
-const toTop = document.querySelector('.to-top');
-if (toTop) {
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 300) toTop.classList.add('visible');
-    else toTop.classList.remove('visible');
-  });
-}

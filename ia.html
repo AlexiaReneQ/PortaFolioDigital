@@ -4,25 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Uso de Inteligencia Artificial</title>
+  <meta name="description" content="Portafolio digital académico sobre derecho y tecnología aplicados a los servicios públicos y de justicia en Cusco.">
+  <meta name="theme-color" content="#16324F">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Saltar al contenido</a>
+
   <header class="site-header">
     <div class="container nav-container">
       <a href="index.html" class="logo">Derecho y Tecnología</a>
+
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        ☰
+      </button>
+
       <nav class="nav">
         <a href="index.html">Inicio</a>
         <a href="proyecto.html">Definición del Proyecto</a>
         <a href="busqueda.html">Búsqueda y Selección</a>
         <a href="contenido.html">Desarrollo del Contenido</a>
-        <a href="ia.html" class="active">Uso de IA</a>
+        <a href="ia.html">Uso de IA</a>
         <a href="conclusiones.html">Conclusiones</a>
         <a href="referencias.html">Referencias</a>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="main-content">
     <section class="page-banner">
       <div class="container">
         <span class="badge">Página 5</span>
@@ -142,6 +151,18 @@
     </section>
 
     <section class="section">
+      <div class="container note-box">
+        <h2>Verificación humana del contenido</h2>
+        <p>
+          Todo contenido generado con apoyo de inteligencia artificial fue revisado manualmente,
+          contrastado con fuentes oficiales y ajustado al enfoque académico del portafolio.
+          La herramienta se utilizó para apoyar la organización y redacción inicial, pero no para
+          sustituir el análisis crítico ni la responsabilidad de la autora.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
       <div class="container two-columns">
         <div class="content-box">
           <h2>Relación con mi formación en Derecho</h2>
@@ -219,8 +240,11 @@
   <footer class="site-footer">
     <div class="container footer-content">
       <p>Alexia Rene Quispe Mamani · Portafolio digital académico</p>
-      <p>Uso de Inteligencia Artificial</p>
+      <p>Derecho y tecnología aplicados a los servicios públicos y de justicia en Cusco</p>
     </div>
   </footer>
+
+  <button class="back-to-top" aria-label="Volver arriba">↑</button>
+  <script src="script.js"></script>
 </body>
 </html>

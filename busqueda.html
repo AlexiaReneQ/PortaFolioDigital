@@ -4,16 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Búsqueda y Selección de Información</title>
+  <meta name="description" content="Portafolio digital académico sobre derecho y tecnología aplicados a los servicios públicos y de justicia en Cusco.">
+  <meta name="theme-color" content="#16324F">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Saltar al contenido</a>
+
   <header class="site-header">
     <div class="container nav-container">
       <a href="index.html" class="logo">Derecho y Tecnología</a>
+
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+        ☰
+      </button>
+
       <nav class="nav">
         <a href="index.html">Inicio</a>
         <a href="proyecto.html">Definición del Proyecto</a>
-        <a href="busqueda.html" class="active">Búsqueda y Selección</a>
+        <a href="busqueda.html">Búsqueda y Selección</a>
         <a href="contenido.html">Desarrollo del Contenido</a>
         <a href="ia.html">Uso de IA</a>
         <a href="conclusiones.html">Conclusiones</a>
@@ -22,7 +31,7 @@
     </div>
   </header>
 
-  <main>
+  <main id="main-content">
     <section class="page-banner">
       <div class="container">
         <span class="badge">Página 3</span>
@@ -49,6 +58,32 @@
             El proceso de búsqueda no se limitó a reunir información, sino que implicó identificar
             fuentes confiables, comparar contenidos, verificar su relación con el tema y seleccionar
             aquellos materiales que aportaran claridad, pertinencia y sustento académico.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container two-columns">
+        <div class="content-box">
+          <h2>Palabras clave utilizadas</h2>
+          <ul class="check-list">
+            <li>derecho y tecnología en Cusco</li>
+            <li>servicios públicos digitales Cusco</li>
+            <li>mesa de partes virtual Cusco</li>
+            <li>justicia digital Corte Superior de Justicia de Cusco</li>
+            <li>DNI electrónico e identidad digital Perú</li>
+            <li>protección de datos y servicios digitales</li>
+          </ul>
+        </div>
+
+        <div class="content-box">
+          <h2>Estrategia de selección</h2>
+          <p>
+            Primero se identificaron fuentes oficiales para aterrizar el tema al contexto local.
+            Luego se consultaron repositorios y recursos académicos para complementar el análisis.
+            Finalmente, se eligieron materiales que ofrecieran claridad, pertinencia y relación directa
+            con el problema estudiado.
           </p>
         </div>
       </div>
@@ -236,8 +271,11 @@
   <footer class="site-footer">
     <div class="container footer-content">
       <p>Alexia Rene Quispe Mamani · Portafolio digital académico</p>
-      <p>Búsqueda y Selección de Información</p>
+      <p>Derecho y tecnología aplicados a los servicios públicos y de justicia en Cusco</p>
     </div>
   </footer>
+
+  <button class="back-to-top" aria-label="Volver arriba">↑</button>
+  <script src="script.js"></script>
 </body>
 </html>
