@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F2740"/>
+      <stop offset="1" stop-color="#1E5B85"/>
+    </linearGradient>
+    <linearGradient id="card" x1="1050" y1="160" x2="1320" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4F7FB"/>
+      <stop offset="1" stop-color="#DDE9F5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" rx="40" fill="url(#bg)"/>
+  <circle cx="1330" cy="190" r="110" fill="#D8B46A" fill-opacity="0.18"/>
+  <circle cx="260" cy="130" r="68" fill="#7FB3D5" fill-opacity="0.22"/>
+  <circle cx="1445" cy="730" r="150" fill="#7FB3D5" fill-opacity="0.16"/>
+  <rect x="910" y="140" width="470" height="560" rx="30" fill="url(#card)"/>
+  <rect x="955" y="195" width="380" height="68" rx="16" fill="#16324F"/>
+  <rect x="955" y="287" width="150" height="18" rx="9" fill="#7FB3D5"/>
+  <rect x="1122" y="287" width="115" height="18" rx="9" fill="#D8B46A"/>
+  <rect x="955" y="327" width="300" height="16" rx="8" fill="#BCCDE0"/>
+  <rect x="955" y="359" width="248" height="16" rx="8" fill="#BCCDE0"/>
+  <rect x="955" y="407" width="120" height="120" rx="22" fill="#E7EFF7"/>
+  <rect x="1090" y="407" width="120" height="120" rx="22" fill="#E7EFF7"/>
+  <rect x="1225" y="407" width="110" height="120" rx="22" fill="#E7EFF7"/>
+  <rect x="955" y="553" width="380" height="22" rx="11" fill="#C1D4E7"/>
+  <rect x="955" y="590" width="308" height="22" rx="11" fill="#C1D4E7"/>
+  <g transform="translate(160 160)">
+    <rect x="0" y="0" width="620" height="500" rx="32" fill="#0B1F33" fill-opacity="0.22"/>
+    <text x="44" y="94" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700">Derecho y Tecnología</text>
+    <text x="48" y="150" fill="#D8B46A" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Portafolio digital académico</text>
+    <text x="48" y="228" fill="#E5EEF7" font-family="Arial, Helvetica, sans-serif" font-size="28">Formación jurídica, investigación digital,</text>
+    <text x="48" y="270" fill="#E5EEF7" font-family="Arial, Helvetica, sans-serif" font-size="28">protección de datos e inteligencia artificial</text>
+    <g transform="translate(40 325)">
+      <circle cx="32" cy="32" r="32" fill="#D8B46A"/>
+      <path d="M18 31h28M32 17v28" stroke="#16324F" stroke-width="6" stroke-linecap="round"/>
+      <rect x="88" y="0" width="420" height="24" rx="12" fill="#7FB3D5"/>
+      <rect x="88" y="42" width="360" height="24" rx="12" fill="#D5E3F0"/>
+    </g>
+  </g>
+  <g transform="translate(1010 438)">
+    <rect x="38" y="0" width="12" height="84" rx="6" fill="#16324F"/>
+    <path d="M44 12c-39 0-70 20-70 47s31 47 70 47 70-20 70-47-31-47-70-47Z" stroke="#16324F" stroke-width="12"/>
+    <circle cx="44" cy="58" r="11" fill="#D8B46A"/>
+  </g>
+</svg>
