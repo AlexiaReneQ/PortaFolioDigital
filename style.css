@@ -650,3 +650,32 @@ table th {
     height: 210px;
   }
 }
+
+/* ===== Evidencia de publicación ===== */
+.section-heading-left {
+  text-align: left;
+  max-width: 100%;
+  margin: 0 0 24px;
+}
+
+.evidence-publication {
+  padding: 32px;
+}
+
+.publication-figure {
+  margin: 0;
+}
+
+.publication-image {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+.publication-figure figcaption {
+  margin-top: 14px;
+  color: var(--secondary);
+  font-size: 0.96rem;
+  line-height: 1.6;
+}
